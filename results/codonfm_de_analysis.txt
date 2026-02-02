@@ -1,0 +1,87 @@
+================================================================================
+CodonFM D/E REGION ANALYSIS FOR RNA-BINDING DOMAINS (RRM_1)
+================================================================================
+
+Date: 2026-02-01
+Model: NV-CodonFM-Encodon-80M-v1
+Scoring method: leave-one-codon-out pseudo-likelihood
+
+Sequences scored: 15
+Sequences filtered (internal stops): 28
+Total D/E codons analyzed: 135
+Total core codons analyzed: 848
+
+----------------------------------------------------------------------
+MAIN FINDING: D/E vs CORE CODON PERPLEXITY
+----------------------------------------------------------------------
+
+D/E positions mean NLL:  3.0115 +/- 1.2941
+Core positions mean NLL: 3.6335 +/- 1.2131
+Difference (D/E - Core): -0.6220
+
+INTERPRETATION: D/E codons show LOWER NLL (higher model confidence),
+suggesting these charged residues are more predictable/optimized.
+
+----------------------------------------------------------------------
+ASPARTATE vs GLUTAMATE
+----------------------------------------------------------------------
+
+Aspartate (D): n=61, mean NLL = 3.1071
+Glutamate (E): n=74, mean NLL = 2.9328
+Difference (D - E): +0.1743
+
+----------------------------------------------------------------------
+DOMAIN-LEVEL ANALYSIS
+----------------------------------------------------------------------
+
+Sequences where D/E NLL > core NLL: 3/15 (20.0%)
+Sequences where core NLL > D/E NLL: 12/15 (80.0%)
+
+Per-sequence statistics:
+----------------------------------------------------------------------
+O43719|PF00076|RRM_1: 13/55 D/E (23.6%), D/E NLL=3.176, core NLL=4.242, diff=-1.066
+O60506|PF00076|RRM_1: 12/62 D/E (19.4%), D/E NLL=3.494, core NLL=3.714, diff=-0.220
+O43719|PF00076|RRM_1: 14/78 D/E (17.9%), D/E NLL=3.002, core NLL=3.748, diff=-0.746
+A0AV96|PF00076|RRM_1: 11/62 D/E (17.7%), D/E NLL=1.725, core NLL=2.973, diff=-1.248
+A6NDY0|PF00076|RRM_1: 11/70 D/E (15.7%), D/E NLL=2.617, core NLL=3.729, diff=-1.113
+P05455|PF00076|RRM_1: 10/66 D/E (15.2%), D/E NLL=2.988, core NLL=3.744, diff=-0.756
+A0AV96|PF00076|RRM_1: 9/64 D/E (14.1%), D/E NLL=2.619, core NLL=3.376, diff=-0.757
+A0AV96|PF00076|RRM_1: 9/65 D/E (13.8%), D/E NLL=4.054, core NLL=3.439, diff=+0.615
+O75821|PF00076|RRM_1: 8/63 D/E (12.7%), D/E NLL=2.065, core NLL=3.230, diff=-1.165
+O43251|PF00076|RRM_1: 8/67 D/E (11.9%), D/E NLL=3.236, core NLL=4.043, diff=-0.807
+O60506|PF00076|RRM_1: 7/63 D/E (11.1%), D/E NLL=3.061, core NLL=3.263, diff=-0.202
+O95104|PF00076|RRM_1: 7/64 D/E (10.9%), D/E NLL=2.902, core NLL=3.897, diff=-0.995
+O60506|PF00076|RRM_1: 7/66 D/E (10.6%), D/E NLL=3.017, core NLL=3.839, diff=-0.822
+P08621|PF00076|RRM_1: 6/70 D/E (8.6%), D/E NLL=3.696, core NLL=3.674, diff=+0.022
+O14979|PF00076|RRM_1: 3/68 D/E (4.4%), D/E NLL=5.392, core NLL=3.621, diff=+1.772
+
+----------------------------------------------------------------------
+CODON USAGE IN D/E POSITIONS
+----------------------------------------------------------------------
+
+  GAT (D): 34 (25.2%)
+  GAC (D): 27 (20.0%)
+  GAA (E): 31 (23.0%)
+  GAG (E): 43 (31.9%)
+
+----------------------------------------------------------------------
+CONCLUSIONS
+----------------------------------------------------------------------
+
+1. Sample size note: Only 15 sequences passed CodonFM hygiene filters
+   (many had internal stop codons, suggesting CDS extraction issues)
+
+2. D/E vs Core difference: -0.6220 NLL units
+
+3. The hypothesis that D/E-rich regions have different codon optimization
+   receives limited support from this small dataset. A larger, properly
+   curated CDS dataset would be needed for definitive conclusions.
+
+----------------------------------------------------------------------
+TECHNICAL NOTES
+----------------------------------------------------------------------
+
+- Lower NLL = higher model confidence = more 'expected' codon in context
+- Higher NLL = lower model confidence = less 'expected' codon in context
+- CodonFM was trained on diverse prokaryotic/eukaryotic coding sequences
+- The model captures codon context beyond simple codon bias

@@ -1,0 +1,208 @@
+{
+  "family_summaries": [
+    {
+      "family": "DEAD",
+      "n_domains": 300,
+      "mean_de_content": 11.134847572498762,
+      "std_de_content": 1.7985195214286467,
+      "mean_rgg_count": 0.04666666666666667,
+      "pct_with_rgg": 4.666666666666667,
+      "mean_sr_content": 11.72214099956272,
+      "pct_with_sr_regions": 19.0,
+      "mean_pq_content": 9.543124950945776,
+      "mean_disorder_promoting": 40.740308027526204,
+      "mean_glycine": 6.556932479095664,
+      "mean_proline": 4.267481505877343,
+      "mean_arginine": 5.921388082295504
+    },
+    {
+      "family": "Helicase_C",
+      "n_domains": 366,
+      "mean_de_content": 11.068540836034016,
+      "std_de_content": 2.607151889478822,
+      "mean_rgg_count": 0.2459016393442623,
+      "pct_with_rgg": 21.03825136612022,
+      "mean_sr_content": 13.562887197744338,
+      "pct_with_sr_regions": 10.655737704918032,
+      "mean_pq_content": 7.460973744426286,
+      "mean_disorder_promoting": 37.9933387459315,
+      "mean_glycine": 7.128941720998975,
+      "mean_proline": 3.1350277189506506,
+      "mean_arginine": 7.743230067098297
+    },
+    {
+      "family": "KH_1",
+      "n_domains": 221,
+      "mean_de_content": 11.170192654863934,
+      "std_de_content": 3.4100399512271764,
+      "mean_rgg_count": 0.12669683257918551,
+      "pct_with_rgg": 11.312217194570136,
+      "mean_sr_content": 11.779797392969352,
+      "pct_with_sr_regions": 2.262443438914027,
+      "mean_pq_content": 9.653155393452623,
+      "mean_disorder_promoting": 46.66682993299796,
+      "mean_glycine": 9.137046960885655,
+      "mean_proline": 4.347493136353938,
+      "mean_arginine": 6.094662256583435
+    },
+    {
+      "family": "LSM",
+      "n_domains": 84,
+      "mean_de_content": 12.243402294118372,
+      "std_de_content": 3.1794277409188942,
+      "mean_rgg_count": 0.0,
+      "pct_with_rgg": 0.0,
+      "mean_sr_content": 10.873465740856178,
+      "pct_with_sr_regions": 7.142857142857142,
+      "mean_pq_content": 4.7321890149994355,
+      "mean_disorder_promoting": 33.02976705261527,
+      "mean_glycine": 7.7914962864217046,
+      "mean_proline": 1.593728417687915,
+      "mean_arginine": 6.450135210690185
+    },
+    {
+      "family": "RRM_1",
+      "n_domains": 966,
+      "mean_de_content": 13.760122975469493,
+      "std_de_content": 4.032084129615142,
+      "mean_rgg_count": 0.016563146997929608,
+      "pct_with_rgg": 1.6563146997929608,
+      "mean_sr_content": 11.651249728936532,
+      "pct_with_sr_regions": 14.906832298136646,
+      "mean_pq_content": 6.252558848280396,
+      "mean_disorder_promoting": 41.5471780798264,
+      "mean_glycine": 8.126725801404971,
+      "mean_proline": 2.8341478699120595,
+      "mean_arginine": 5.967902988984096
+    },
+    {
+      "family": "S1",
+      "n_domains": 57,
+      "mean_de_content": 12.697239174273706,
+      "std_de_content": 3.254307992117632,
+      "mean_rgg_count": 0.05263157894736842,
+      "pct_with_rgg": 5.263157894736842,
+      "mean_sr_content": 12.557625511986837,
+      "pct_with_sr_regions": 22.807017543859647,
+      "mean_pq_content": 6.161458509949766,
+      "mean_disorder_promoting": 40.05614515987311,
+      "mean_glycine": 8.878693594094544,
+      "mean_proline": 3.059037914186843,
+      "mean_arginine": 6.651657164251884
+    },
+    {
+      "family": "dsRBD",
+      "n_domains": 96,
+      "mean_de_content": 9.485606859472485,
+      "std_de_content": 2.6316168368923574,
+      "mean_rgg_count": 0.052083333333333336,
+      "pct_with_rgg": 5.208333333333334,
+      "mean_sr_content": 11.215825521523385,
+      "pct_with_sr_regions": 12.5,
+      "mean_pq_content": 10.472625558367413,
+      "mean_disorder_promoting": 50.889211325745656,
+      "mean_glycine": 7.079288813212926,
+      "mean_proline": 4.672677363364765,
+      "mean_arginine": 5.157427222157292
+    },
+    {
+      "family": "zf-CCCH",
+      "n_domains": 172,
+      "mean_de_content": 8.420620020987217,
+      "std_de_content": 4.7786980400694254,
+      "mean_rgg_count": 0.05232558139534884,
+      "pct_with_rgg": 5.232558139534884,
+      "mean_sr_content": 12.034832189454082,
+      "pct_with_sr_regions": 1.744186046511628,
+      "mean_pq_content": 8.484573601411448,
+      "mean_disorder_promoting": 38.10011127464297,
+      "mean_glycine": 9.37851888865672,
+      "mean_proline": 4.995965086992706,
+      "mean_arginine": 7.966964432247014
+    },
+    {
+      "family": "zf-CCHC",
+      "n_domains": 131,
+      "mean_de_content": 10.981140547822182,
+      "std_de_content": 4.81834002102649,
+      "mean_rgg_count": 0.04580152671755725,
+      "pct_with_rgg": 4.580152671755725,
+      "mean_sr_content": 11.78672104974305,
+      "pct_with_sr_regions": 2.2900763358778624,
+      "mean_pq_content": 6.4196352841391,
+      "mean_disorder_promoting": 41.71132066057975,
+      "mean_glycine": 12.33666367310283,
+      "mean_proline": 3.668861946814349,
+      "mean_arginine": 6.830876116349848
+    }
+  ],
+  "group_comparisons": [
+    {
+      "metric": "D/E content (%)",
+      "de_enriched_mean": 12.652834967801605,
+      "de_enriched_std": 3.64674798524257,
+      "non_de_mean": 10.324740802869123,
+      "non_de_std": 4.2160917374368205,
+      "difference": 2.328094164932482,
+      "mann_whitney_p": 1.648338598677732e-33
+    },
+    {
+      "metric": "RGG motif count",
+      "de_enriched_mean": 0.06993006993006994,
+      "de_enriched_std": 0.28318080867382345,
+      "non_de_mean": 0.07533234859675036,
+      "non_de_std": 0.28021423072057666,
+      "difference": -0.0054022786666804296,
+      "mann_whitney_p": 0.45846158037838347
+    },
+    {
+      "metric": "Glycine (%)",
+      "de_enriched_mean": 7.623062485915472,
+      "de_enriched_std": 2.395340192009293,
+      "non_de_mean": 9.503977591304263,
+      "non_de_std": 3.2964455392510676,
+      "difference": -1.880915105388791,
+      "mann_whitney_p": 1.5825138255640554e-41
+    },
+    {
+      "metric": "Arginine (%)",
+      "de_enriched_mean": 6.362030462880675,
+      "de_enriched_std": 2.8818129079990644,
+      "non_de_mean": 6.626795397315676,
+      "non_de_std": 4.114559175608789,
+      "difference": -0.26476493443500093,
+      "mann_whitney_p": 0.5899616415742832
+    },
+    {
+      "metric": "Proline (%)",
+      "de_enriched_mean": 3.0881845141724797,
+      "de_enriched_std": 1.9141938170571362,
+      "non_de_mean": 4.318559942572102,
+      "non_de_std": 3.099939743972364,
+      "difference": -1.230375428399622,
+      "mann_whitney_p": 1.9274007987376635e-21
+    },
+    {
+      "metric": "S+R content (%)",
+      "de_enriched_mean": 12.03329683836122,
+      "de_enriched_std": 3.649803425808269,
+      "non_de_mean": 11.831448629539384,
+      "non_de_std": 4.78267915459221,
+      "difference": 0.2018482088218363,
+      "mann_whitney_p": 0.1036727598288025
+    }
+  ],
+  "de_enriched_families": [
+    "Helicase_C",
+    "RRM_1",
+    "DEAD",
+    "LSM"
+  ],
+  "non_de_families": [
+    "dsRBD",
+    "zf-CCCH",
+    "zf-CCHC",
+    "S1",
+    "KH_1"
+  ]
+}

@@ -1,0 +1,301 @@
+================================================================================
+CLINVAR/UNIPROT VARIANT ANALYSIS: D/E POSITIONS IN RNA-BINDING PROTEINS
+================================================================================
+
+HYPOTHESIS: If D/E autoinhibitory regions are functional, mutations removing
+D/E should be pathogenic (loss of autoinhibition → gain of function).
+
+Data source: UniProt variants for RNA-binding proteins
+Total variants analyzed: 5198
+
+================================================================================
+1. VARIANT OVERVIEW
+================================================================================
+
+Total variants: 5198
+
+D/E REMOVAL mutations (D→X or E→X): 531 (10.2%)
+  - D→X mutations: 248
+  - E→X mutations: 283
+
+D/E INTRODUCTION mutations (X→D or X→E): 338 (6.5%)
+  - X→D mutations: 167
+  - X→E mutations: 171
+
+D↔E exchanges (counted in both): 79
+
+================================================================================
+2. PATHOGENICITY ANALYSIS
+================================================================================
+
+PATHOGENICITY RATES:
+
+  Category                    Pathogenic/Total     Rate
+  ────────────────────────    ─────────────────    ─────
+  All variants                 509/5198          9.8%
+  D/E removal (D→X, E→X)        70/ 531           13.2%  ← ELEVATED
+  D/E introduction (X→D/E)      35/ 338            10.4%
+  Non-D/E variants             411/4408          9.3%
+
+KEY FINDING: D/E removal has 1.35x higher pathogenicity than average.
+
+
+D vs E REMOVAL:
+  D→X: 30/248 = 12.1%
+  E→X: 40/283 = 14.1%
+  
+  Glutamate (E) removal appears slightly more pathogenic than Aspartate (D).
+
+================================================================================
+3. STATISTICAL TESTS
+================================================================================
+
+TEST 1: D/E removal vs all other variants
+  H0: Pathogenicity rate is same for D/E removal and other variants
+  
+  D/E removal:   70/531 = 13.2%
+  Other:         439/4667 = 9.4%
+  
+  Odds Ratio:    1.46
+  P-value:       6.95e-03
+  
+  Result: SIGNIFICANT (α=0.05)
+
+
+TEST 2: Amidation mutations (E→Q, D→N) vs all other variants
+  These mutations remove negative charge while maintaining similar size/shape.
+  
+  E→Q: 13/46 = 28.3%
+  D→N: 14/75 = 18.7%
+  
+  Amidation:     27/121 = 22.3%
+  Other:         482/5077 = 9.5%
+  
+  Odds Ratio:    2.74
+  P-value:       3.24e-05
+  
+  Result: HIGHLY SIGNIFICANT (α=0.05)
+  
+  ★ Amidation mutations are 2.3x more pathogenic than average!
+
+
+TEST 3: Charge reversal (D/E → K/R/H) vs all other variants
+  These mutations flip negative charge to positive (most drastic change).
+  
+  Charge reversal: 22/153 = 14.4%
+  Other:           487/5045 = 9.7%
+  
+  Odds Ratio:      1.57
+  P-value:         7.06e-02
+  
+  Result: Not significant (α=0.05)
+
+================================================================================
+4. MOST PATHOGENIC D/E SUBSTITUTIONS
+================================================================================
+
+Pathogenicity rates for D/E removal substitutions (sorted by rate):
+
+  Substitution   Count   Pathogenic   Rate     Note
+  ───────────    ─────   ──────────   ─────    ─────────────────────────────────
+
+  E→Q              46       13       28.3%    Amidation (removes charge)
+  D→H              31        6       19.4%    Charge reversal
+  D→N              75       14       18.7%    Amidation (removes charge)
+  E→V              18        3       16.7%    Hydrophobic
+  D→V              20        3       15.0%    Hydrophobic
+  E→K             122       16       13.1%    Charge reversal
+  D→Y              24        3       12.5%    
+  E→D              45        5       11.1%    
+  E→A              10        1       10.0%    Hydrophobic
+  D→E              34        2        5.9%    
+  E→G              40        2        5.0%    Glycine (flexibility)
+  D→G              51        2        3.9%    Glycine (flexibility)
+  E→EE              1        0        0.0%    
+  D→A              13        0        0.0%    Hydrophobic
+  E→S               1        0        0.0%    
+
+KEY INSIGHTS:
+- E→Q (amidation): 28.3% pathogenic - HIGHEST RATE for common substitutions
+- D→H: 19.4% pathogenic - charge reversal to histidine
+- D→N (amidation): 18.7% pathogenic - removes charge, maintains size
+- D→G, E→G: LOW pathogenicity (3.9%, 5.0%) - glycine flexibility may compensate
+
+================================================================================
+5. IN-DOMAIN VS OUT-OF-DOMAIN ANALYSIS
+================================================================================
+
+D/E removal pathogenicity by location:
+
+  In RNA-binding domain:     17/153 = 11.1%
+  Outside domain:            53/378 = 14.0%
+
+INTERPRETATION:
+Interestingly, D/E removal OUTSIDE domains shows higher pathogenicity.
+This could indicate:
+1. D/E residues in linker/regulatory regions have important autoinhibitory roles
+2. Domain D/E residues may be more tolerant (redundancy in domain function)
+3. The autoinhibition hypothesis applies more to non-domain regions
+
+================================================================================
+6. PROTEINS WITH MULTIPLE PATHOGENIC D/E MUTATIONS
+================================================================================
+
+13 proteins have 2+ pathogenic D/E removal variants:
+
+
+  Q8WZ42: 6 pathogenic D/E mutations
+    - pos 937: E→D (outside)
+    - pos 3570: E→K (IN-DOMAIN)
+    - pos 19392: E→K (IN-DOMAIN)
+    - pos 23282: D→N (IN-DOMAIN)
+    - pos 23551: E→Q (IN-DOMAIN)
+    - pos 23872: D→N (outside)
+
+  Q9UPY3: 4 pathogenic D/E mutations
+    - pos 1705: E→K (outside)
+    - pos 1709: D→N (outside)
+    - pos 1810: D→Y (outside)
+    - pos 1813: E→Q (outside)
+
+  P32004: 3 pathogenic D/E mutations
+    - pos 309: E→K (outside)
+    - pos 516: D→N (outside)
+    - pos 516: D→Y (outside)
+
+  Q06124: 3 pathogenic D/E mutations
+    - pos 61: D→V (IN-DOMAIN)
+    - pos 69: E→K (IN-DOMAIN)
+    - pos 76: E→A (IN-DOMAIN)
+
+  Q9UN86: 3 pathogenic D/E mutations
+    - pos 151: D→N (outside)
+    - pos 158: E→K (outside)
+    - pos 399: E→D (outside)
+
+  O96017: 2 pathogenic D/E mutations
+    - pos 64: E→K (outside)
+    - pos 239: E→K (IN-DOMAIN)
+
+  P02751: 2 pathogenic D/E mutations
+    - pos 940: D→N (IN-DOMAIN)
+    - pos 2471: D→N (outside)
+
+  P11532: 2 pathogenic D/E mutations
+    - pos 165: D→V (outside)
+    - pos 1219: E→Q (outside)
+
+  Q03468: 2 pathogenic D/E mutations
+    - pos 1119: E→Q (outside)
+    - pos 1119: E→V (outside)
+
+  Q14498: 2 pathogenic D/E mutations
+    - pos 271: E→G (IN-DOMAIN)
+    - pos 271: E→Q (IN-DOMAIN)
+
+  Q9H4A3: 2 pathogenic D/E mutations
+    - pos 419: E→Q (IN-DOMAIN)
+    - pos 1199: E→G (outside)
+
+  Q9UHD2: 2 pathogenic D/E mutations
+    - pos 296: D→H (outside)
+    - pos 696: E→K (outside)
+
+  Q9UIU6: 2 pathogenic D/E mutations
+    - pos 23: E→Q (outside)
+    - pos 780: D→E (outside)
+
+================================================================================
+7. CONCLUSIONS
+================================================================================
+
+SUMMARY OF FINDINGS:
+
+1. D/E REMOVAL IS PATHOGENIC (supports hypothesis)
+   - D/E removal mutations: 13.2% pathogenic vs 9.8% overall (1.35x enriched)
+   - Statistical significance: p = 0.007 (Fisher's exact test)
+   
+2. AMIDATION MUTATIONS ARE HIGHLY PATHOGENIC
+   - E→Q: 28.3% pathogenic (highest common substitution)
+   - D→N: 18.7% pathogenic
+   - Combined: 22.3% pathogenic (2.3x enriched, p = 3.2e-05)
+   - These preserve size but remove negative charge
+   
+3. CHARGE MATTERS MORE THAN SIZE
+   - Amidation (same size, no charge): ~22% pathogenic
+   - Glycine substitution (smaller, no charge): ~5% pathogenic
+   - Suggests the negative charge specifically is functional
+   
+4. LOCATION PARADOX
+   - D/E removal outside domains: 14.0% pathogenic
+   - D/E removal inside domains: 11.1% pathogenic
+   - Suggests autoinhibitory function may be in linker/regulatory regions
+   
+5. E vs D
+   - E→X slightly more pathogenic than D→X (14.1% vs 12.1%)
+   - E→Q more pathogenic than D→N (28.3% vs 18.7%)
+   - Glutamate (longer side chain) removal may be more disruptive
+
+INTERPRETATION FOR AUTOINHIBITION HYPOTHESIS:
+
+The data PARTIALLY SUPPORTS the autoinhibition hypothesis:
+
+✓ SUPPORTS:
+- D/E removal is enriched for pathogenicity
+- Amidation mutations (pure charge removal) are highly pathogenic
+- The charge itself appears critical (not just size)
+
+? NUANCES:
+- Higher pathogenicity outside domains suggests regulatory regions matter
+- E→Q being most pathogenic suggests glutamate in particular plays key roles
+- Many D/E mutations are still benign (only 13% pathogenic)
+
+LIMITATIONS:
+- UniProt variants may have ascertainment bias (focus on known disease genes)
+- "Pathogenic" annotation quality varies
+- Cannot distinguish loss-of-function from gain-of-function mechanisms
+- Need structural analysis to identify autoinhibitory D/E clusters
+
+
+================================================================================
+8. DOMAIN-SPECIFIC ANALYSIS
+================================================================================
+
+Pathogenic D/E mutations within domains: 17
+
+Domain families with pathogenic D/E mutations:
+
+  RRM_1: 3 mutations
+  Pkinase: 3 mutations
+  fn3: 3 mutations
+  SH2: 3 mutations
+  I-set: 2 mutations
+  Helicase_C: 1 mutations
+  Ras: 1 mutations
+  LSM: 1 mutations
+
+
+Proteins with highest D/E pathogenicity rates (min 3 D/E variants):
+
+  Accession     Pathogenic/Total    Rate
+  ──────────    ────────────────    ─────
+  Q9UN86          3/  3              100.0%
+  Q9H4A3          2/  3               66.7%
+  O96017          2/  4               50.0%
+  P32004          3/  6               50.0%
+  Q03468          2/  4               50.0%
+  Q9UHD2          2/  4               50.0%
+  P11532          2/  6               33.3%
+  Q9UPY3          4/ 12               33.3%
+  Q06124          3/ 13               23.1%
+  Q8TDI0          1/  5               20.0%
+  Q8WZ42          6/ 30               20.0%
+  Q9H582          1/  5               20.0%
+  P05067          1/  7               14.3%
+  O75962          0/  5                0.0%
+  O94761          0/  4                0.0%
+  O95817          0/  3                0.0%
+  P00742          0/  9                0.0%
+  P05091          0/  3                0.0%
+  P11274          0/  4                0.0%
+  P11309          0/  3                0.0%

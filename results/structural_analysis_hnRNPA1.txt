@@ -1,0 +1,13 @@
+hnRNP A1 (P09651) Structural Analysis
+==================================================
+
+Total residues: 372
+D/E residues: 36
+K/R residues: 43
+
+D/E pLDDT: 34.8
+K/R pLDDT: 58.9
+Overall pLDDT: 67.5
+
+C-terminal D/E pLDDT: 36.6
+D/E-K/R close contacts: 38

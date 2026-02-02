@@ -1,0 +1,27 @@
+# large data files
+results/per_protein_stats.csv
+results/rbp_domains.json
+results/uniprot_variants.json
+results/de_positions.json
+results/mutation_predictions.json
+
+# empty directories
+results/alignments/
+results/embeddings/
+results/plddt_rmsd/
+
+# temp files
+*.pyc
+__pycache__/
+.DS_Store
+*.tmp
+
+# large external data
+Tables_Homologs_All_Species/
+Tables_Non_RBPs_All_Species/
+Tables_RBPs_All_Species/
+data/
+models/
+logs/
+structures/
+sequences/

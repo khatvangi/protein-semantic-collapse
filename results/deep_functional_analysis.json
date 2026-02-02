@@ -1,0 +1,16 @@
+{
+  "decay_analysis": {
+    "n_decay": 14,
+    "n_splicing": 16,
+    "decay_de_mean": 12.595184457644566,
+    "splicing_de_mean": 13.828344920394194
+  },
+  "sr_analysis": {
+    "n_sr": 8,
+    "n_non_sr": 42
+  },
+  "compartment_analysis": {
+    "n_sg": 6,
+    "n_ribosomal": 19
+  }
+}

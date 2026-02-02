@@ -1,0 +1,26 @@
+STRENGTHENED HYPOTHESIS ANALYSIS
+======================================================================
+
+1. D/E SEGMENT DETECTION (corrected)
+   ≥3 consecutive D/E: RBD 6.7%
+   ≥5 consecutive D/E: RBD 0.1%
+   ≥10 consecutive D/E: RBD 0.0%
+
+2. PTM MULTIPLE TESTING
+   Phosphorylation near D/E: raw p=0.034, Bonferroni p=0.10
+
+3. STRUCTURAL VALIDATION
+   D/E regions 12-18 Å from RNA binding site
+   Contact same K/R residues as RNA
+
+4. KNOWN CASES
+   Hfq: 10-fold increase when tail removed
+   FBF-2: 3-fold decrease when tail removed
+   SLBP: 27-fold increase upon phosphorylation
+
+5. MUTATION CANDIDATES
+   Q4LDD4 (PF00620): EDEEE
+   Q96P48 (PF00620): EDEEE
+   F4JWP9 (PF03144): EDEED
+   O08810 (PF03144): EDEED
+   Q15029 (PF03144): EDEED

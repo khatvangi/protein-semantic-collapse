@@ -1,0 +1,16 @@
+{
+  "codonfm": {
+    "n_de": 1021,
+    "n_core": 7188,
+    "de_mean": 3.550737173860831,
+    "core_mean": 3.912023005428146,
+    "p_value": 0.0
+  },
+  "writeup": true,
+  "structural": false,
+  "status": {
+    "codonfm": "\u2713 SUCCESS",
+    "writeup": "\u2713 SUCCESS",
+    "structural": "\u2717 NOT FEASIBLE"
+  }
+}

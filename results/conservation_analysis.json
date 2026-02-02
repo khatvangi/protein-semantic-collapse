@@ -1,0 +1,119 @@
+{
+  "P22626": {
+    "gene": "HNRNPA2B1",
+    "domain": "RRM_1",
+    "species_count": 3,
+    "human_length": 353,
+    "de_count": 39,
+    "de_pct": 11.048158640226628,
+    "de_segments": [],
+    "avg_de_conservation": 0.8119658119658119,
+    "avg_non_de_conservation": 0.8312101910828026,
+    "avg_de_to_de_conservation": 0.8888888888888888,
+    "de_positions_count": 39,
+    "non_de_positions_count": 314
+  },
+  "Q13243": {
+    "gene": "SRSF5",
+    "domain": "RRM_1",
+    "species_count": 4,
+    "human_length": 272,
+    "de_count": 33,
+    "de_pct": 12.132352941176471,
+    "de_segments": [],
+    "avg_de_conservation": 0.8282828282828283,
+    "avg_non_de_conservation": 0.7552301255230126,
+    "avg_de_to_de_conservation": 0.8863636363636364,
+    "de_positions_count": 33,
+    "non_de_positions_count": 239
+  },
+  "P35922": {
+    "gene": "FMR1",
+    "domain": "KH_1",
+    "species_count": 4,
+    "human_length": 614,
+    "de_count": 93,
+    "de_pct": 15.146579804560261,
+    "de_segments": [
+      [
+        255,
+        258,
+        "DED"
+      ],
+      [
+        328,
+        331,
+        "EEE"
+      ],
+      [
+        517,
+        520,
+        "EEE"
+      ]
+    ],
+    "avg_de_conservation": 0.8064516129032258,
+    "avg_non_de_conservation": 0.8208573256557902,
+    "avg_de_to_de_conservation": 0.9032258064516129,
+    "de_positions_count": 93,
+    "non_de_positions_count": 521
+  },
+  "P17844": {
+    "gene": "DDX5",
+    "domain": "DEAD",
+    "species_count": 5,
+    "human_length": 614,
+    "de_count": 73,
+    "de_pct": 11.889250814332248,
+    "de_segments": [],
+    "avg_de_conservation": 0.7632420091324201,
+    "avg_non_de_conservation": 0.7621688231669747,
+    "avg_de_to_de_conservation": 0.8191780821917809,
+    "de_positions_count": 73,
+    "non_de_positions_count": 541
+  },
+  "P62310": {
+    "gene": "LSM3",
+    "domain": "LSM",
+    "species_count": 6,
+    "human_length": 102,
+    "de_count": 21,
+    "de_pct": 20.58823529411765,
+    "de_segments": [
+      [
+        66,
+        69,
+        "DEE"
+      ]
+    ],
+    "avg_de_conservation": 0.8698412698412697,
+    "avg_non_de_conservation": 0.8106995884773663,
+    "avg_de_to_de_conservation": 0.9333333333333333,
+    "de_positions_count": 21,
+    "non_de_positions_count": 81
+  },
+  "P11940": {
+    "gene": "PABPC1",
+    "domain": "RRM_1",
+    "species_count": 4,
+    "human_length": 636,
+    "de_count": 65,
+    "de_pct": 10.220125786163521,
+    "de_segments": [
+      [
+        202,
+        205,
+        "DDE"
+      ],
+      [
+        305,
+        308,
+        "DDE"
+      ]
+    ],
+    "avg_de_conservation": 0.8692307692307693,
+    "avg_non_de_conservation": 0.8756567425569177,
+    "avg_de_to_de_conservation": 0.9192307692307692,
+    "de_positions_count": 65,
+    "non_de_positions_count": 571
+  }
+}

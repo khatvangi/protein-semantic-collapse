@@ -1,0 +1,663 @@
+{
+  "family_analyses": {
+    "RRM_1": {
+      "family": "RRM_1",
+      "n_domains": 966,
+      "mean_de": 13.760122975469493,
+      "std_de": 4.032084129615142,
+      "mean_kr": 13.134975539965977,
+      "de_kr_ratio": 1.04759410732067
+    },
+    "RRM_2": {
+      "family": "RRM_2",
+      "n_domains": 4,
+      "mean_de": 7.989690721649484,
+      "std_de": 0.44640484731156627,
+      "mean_kr": 13.917525773195877,
+      "de_kr_ratio": 0.574074074074074
+    },
+    "RRM_3": {
+      "family": "RRM_3",
+      "n_domains": 7,
+      "mean_de": 17.78420287593617,
+      "std_de": 2.961954269503191,
+      "mean_kr": 17.215637454429576,
+      "de_kr_ratio": 1.0330261033326014
+    },
+    "RRM_5": {
+      "family": "RRM_5",
+      "n_domains": 16,
+      "mean_de": 8.484646869125898,
+      "std_de": 1.6897096637830262,
+      "mean_kr": 9.528160261224155,
+      "de_kr_ratio": 0.8904811250557
+    },
+    "KH_1": {
+      "family": "KH_1",
+      "n_domains": 221,
+      "mean_de": 11.170192654863934,
+      "std_de": 3.4100399512271764,
+      "mean_kr": 13.609407808916952,
+      "de_kr_ratio": 0.8207699270753844
+    },
+    "KH_2": {
+      "family": "KH_2",
+      "n_domains": 14,
+      "mean_de": 15.037596696598653,
+      "std_de": 1.6980291534849175,
+      "mean_kr": 16.655491671636486,
+      "de_kr_ratio": 0.9028611699411413
+    },
+    "DEAD": {
+      "family": "DEAD",
+      "n_domains": 300,
+      "mean_de": 11.134847572498762,
+      "std_de": 1.7985195214286467,
+      "mean_kr": 11.553774350722442,
+      "de_kr_ratio": 0.9637411320745168
+    },
+    "Helicase_C": {
+      "family": "Helicase_C",
+      "n_domains": 366,
+      "mean_de": 11.068540836034016,
+      "std_de": 2.607151889478822,
+      "mean_kr": 13.295001509518093,
+      "de_kr_ratio": 0.8325340037088285
+    },
+    "dsRBD": {
+      "family": "dsRBD",
+      "n_domains": 96,
+      "mean_de": 9.485606859472485,
+      "std_de": 2.6316168368923574,
+      "mean_kr": 14.720201361564188,
+      "de_kr_ratio": 0.6443938249540719
+    },
+    "zf-CCHC": {
+      "family": "zf-CCHC",
+      "n_domains": 131,
+      "mean_de": 10.981140547822182,
+      "std_de": 4.81834002102649,
+      "mean_kr": 13.861697350696003,
+      "de_kr_ratio": 0.7921930677032718
+    },
+    "zf-CCCH": {
+      "family": "zf-CCCH",
+      "n_domains": 172,
+      "mean_de": 8.420620020987217,
+      "std_de": 4.7786980400694254,
+      "mean_kr": 16.247611073737946,
+      "de_kr_ratio": 0.5182681923373956
+    },
+    "PABP": {
+      "family": "PABP",
+      "n_domains": 19,
+      "mean_de": 15.311955294045276,
+      "std_de": 2.640546411604536,
+      "mean_kr": 8.122853282610661,
+      "de_kr_ratio": 1.8850463945747964
+    },
+    "PUF": {
+      "family": "PUF",
+      "n_domains": 227,
+      "mean_de": 11.616389272208595,
+      "std_de": 5.120021890799565,
+      "mean_kr": 9.864945052179504,
+      "de_kr_ratio": 1.1775422174948798
+    },
+    "PAZ": {
+      "family": "PAZ",
+      "n_domains": 42,
+      "mean_de": 11.066534513141065,
+      "std_de": 2.449138257950291,
+      "mean_kr": 15.072834305099859,
+      "de_kr_ratio": 0.7342039519001896
+    },
+    "Piwi": {
+      "family": "Piwi",
+      "n_domains": 35,
+      "mean_de": 8.60944231927296,
+      "std_de": 1.2982070430309125,
+      "mean_kr": 11.481721864132421,
+      "de_kr_ratio": 0.749838954570731
+    },
+    "TUDOR": {
+      "family": "TUDOR",
+      "n_domains": 6,
+      "mean_de": 10.355603351647916,
+      "std_de": 0.8743700384117552,
+      "mean_kr": 11.951768924994889,
+      "de_kr_ratio": 0.8664494282508348
+    },
+    "WW": {
+      "family": "WW",
+      "n_domains": 79,
+      "mean_de": 13.59382422427156,
+      "std_de": 3.9098716037889796,
+      "mean_kr": 13.20685644251913,
+      "de_kr_ratio": 1.0293005215462625
+    },
+    "SAM_1": {
+      "family": "SAM_1",
+      "n_domains": 28,
+      "mean_de": 12.839329477275282,
+      "std_de": 4.111414452199979,
+      "mean_kr": 12.32391264982012,
+      "de_kr_ratio": 1.0418224992419665
+    },
+    "SAM_2": {
+      "family": "SAM_2",
+      "n_domains": 15,
+      "mean_de": 13.291423028213869,
+      "std_de": 4.7693936582025165,
+      "mean_kr": 12.393885206499743,
+      "de_kr_ratio": 1.0724177936748542
+    },
+    "RhoGAP": {
+      "family": "RhoGAP",
+      "n_domains": 26,
+      "mean_de": 12.702770285156179,
+      "std_de": 2.1908664671845273,
+      "mean_kr": 11.5234967721474,
+      "de_kr_ratio": 1.1023364293257853
+    },
+    "zf-AN1": {
+      "family": "zf-AN1",
+      "n_domains": 3,
+      "mean_de": 8.413164295517236,
+      "std_de": 4.451062450778239,
+      "mean_kr": 11.844876550758904,
+      "de_kr_ratio": 0.7102787656303773
+    },
+    "SAP": {
+      "family": "SAP",
+      "n_domains": 31,
+      "mean_de": 12.504947343657022,
+      "std_de": 3.8770661704102087,
+      "mean_kr": 22.49297684781555,
+      "de_kr_ratio": 0.5559489714617949
+    },
+    "HABP4_PAI-RBP1": {
+      "family": "HABP4_PAI-RBP1",
+      "n_domains": 30,
+      "mean_de": 14.749291187420791,
+      "std_de": 1.9635780547638861,
+      "mean_kr": 15.03034822303144,
+      "de_kr_ratio": 0.9813006970004875
+    },
+    "WD40": {
+      "family": "WD40",
+      "n_domains": 1980,
+      "mean_de": 10.768663721526606,
+      "std_de": 4.050138621661091,
+      "mean_kr": 8.946811409437416,
+      "de_kr_ratio": 1.2036314647436779
+    },
+    "HSP70": {
+      "family": "HSP70",
+      "n_domains": 56,
+      "mean_de": 14.976765334306458,
+      "std_de": 2.1075649852424285,
+      "mean_kr": 12.563514639716086,
+      "de_kr_ratio": 1.192084043660963
+    },
+    "Proteasome": {
+      "family": "Proteasome",
+      "n_domains": 46,
+      "mean_de": 11.432636791929403,
+      "std_de": 1.5502421185897006,
+      "mean_kr": 11.169775835949993,
+      "de_kr_ratio": 1.0235332346718535
+    },
+    "LSM": {
+      "family": "LSM",
+      "n_domains": 84,
+      "mean_de": 12.243402294118372,
+      "std_de": 3.1794277409188942,
+      "mean_kr": 13.268950788062975,
+      "de_kr_ratio": 0.9227106566054033
+    },
+    "Kunitz": {
+      "family": "Kunitz",
+      "n_domains": 13,
+      "mean_de": 10.844029946736343,
+      "std_de": 2.3384433228321178,
+      "mean_kr": 9.94847314449466,
+      "de_kr_ratio": 1.0900195225171083
+    },
+    "IF4E": {
+      "family": "IF4E",
+      "n_domains": 12,
+      "mean_de": 11.711519333183846,
+      "std_de": 0.8646956943756536,
+      "mean_kr": 10.895902981981672,
+      "de_kr_ratio": 1.0748553242949153
+    },
+    "S4": {
+      "family": "S4",
+      "n_domains": 28,
+      "mean_de": 7.0027553376093,
+      "std_de": 4.817915886869869,
+      "mean_kr": 18.835845090583256,
+      "de_kr_ratio": 0.3717781338682935
+    },
+    "KOW": {
+      "family": "KOW",
+      "n_domains": 38,
+      "mean_de": 11.069164271844537,
+      "std_de": 4.556038058556782,
+      "mean_kr": 17.128447765656894,
+      "de_kr_ratio": 0.646244448025149
+    },
+    "S1": {
+      "family": "S1",
+      "n_domains": 57,
+      "mean_de": 12.697239174273706,
+      "std_de": 3.254307992117632,
+      "mean_kr": 14.709067771852824,
+      "de_kr_ratio": 0.8632252819292233
+    },
+    "Ribosomal_S15": {
+      "family": "Ribosomal_S15",
+      "n_domains": 12,
+      "mean_de": 12.103422318005288,
+      "std_de": 1.8590636040083321,
+      "mean_kr": 23.942469659696986,
+      "de_kr_ratio": 0.5055210464933494
+    },
+    "Ribosomal_S2": {
+      "family": "Ribosomal_S2",
+      "n_domains": 27,
+      "mean_de": 8.745887979532505,
+      "std_de": 2.895554599884115,
+      "mean_kr": 12.543766859395465,
+      "de_kr_ratio": 0.6972297936948427
+    },
+    "Ribosomal_L16": {
+      "family": "Ribosomal_L16",
+      "n_domains": 18,
+      "mean_de": 8.124307760759843,
+      "std_de": 1.107633895181151,
+      "mean_kr": 20.058296838820095,
+      "de_kr_ratio": 0.4050347756862564
+    },
+    "Ribosomal_L17": {
+      "family": "Ribosomal_L17",
+      "n_domains": 4,
+      "mean_de": 10.24644985204902,
+      "std_de": 2.3663507165404303,
+      "mean_kr": 18.02963169567458,
+      "de_kr_ratio": 0.5683116563333462
+    },
+    "Ribosomal_L22": {
+      "family": "Ribosomal_L22",
+      "n_domains": 13,
+      "mean_de": 8.134180534713018,
+      "std_de": 1.6792563312486917,
+      "mean_kr": 19.021523678236164,
+      "de_kr_ratio": 0.42763033457829114
+    },
+    "Ribosomal_L14": {
+      "family": "Ribosomal_L14",
+      "n_domains": 15,
+      "mean_de": 7.910439503120549,
+      "std_de": 1.0029062677430223,
+      "mean_kr": 17.512058988905025,
+      "de_kr_ratio": 0.45171384519274993
+    },
+    "Ribosomal_L5": {
+      "family": "Ribosomal_L5",
+      "n_domains": 13,
+      "mean_de": 7.872244714349976,
+      "std_de": 0.7808076990223471,
+      "mean_kr": 18.008696956065382,
+      "de_kr_ratio": 0.43713572023313885
+    },
+    "Ribosomal_L6": {
+      "family": "Ribosomal_L6",
+      "n_domains": 22,
+      "mean_de": 11.023170613314203,
+      "std_de": 3.5178144463442966,
+      "mean_kr": 16.703179099983238,
+      "de_kr_ratio": 0.6599444661001848
+    },
+    "Ribosomal_L11_N": {
+      "family": "Ribosomal_L11_N",
+      "n_domains": 16,
+      "mean_de": 7.466413230355523,
+      "std_de": 1.3030672535429302,
+      "mean_kr": 14.859252762371899,
+      "de_kr_ratio": 0.5024756863455967
+    },
+    "Ribosomal_L11": {
+      "family": "Ribosomal_L11",
+      "n_domains": 16,
+      "mean_de": 9.542572463768117,
+      "std_de": 1.6823348354922774,
+      "mean_kr": 16.94315044858523,
+      "de_kr_ratio": 0.5632112217102417
+    },
+    "Ribosomal_L19": {
+      "family": "Ribosomal_L19",
+      "n_domains": 10,
+      "mean_de": 7.294886024075812,
+      "std_de": 0.7726265960466648,
+      "mean_kr": 23.80424884031987,
+      "de_kr_ratio": 0.30645310730072955
+    },
+    "Ribosomal_L18p": {
+      "family": "Ribosomal_L18p",
+      "n_domains": 10,
+      "mean_de": 10.484337990958995,
+      "std_de": 2.4552684117771184,
+      "mean_kr": 16.363744566484293,
+      "de_kr_ratio": 0.6407053072945593
+    },
+    "Ribosomal_S6": {
+      "family": "Ribosomal_S6",
+      "n_domains": 8,
+      "mean_de": 12.455047123015873,
+      "std_de": 1.276467872770626,
+      "mean_kr": 19.269283234126984,
+      "de_kr_ratio": 0.6463679510900169
+    },
+    "Ribosomal_S12": {
+      "family": "Ribosomal_S12",
+      "n_domains": 12,
+      "mean_de": 7.855862223641542,
+      "std_de": 1.559837305804474,
+      "mean_kr": 19.6506716134824,
+      "de_kr_ratio": 0.39977576228242523
+    },
+    "Ribosomal_S3_C": {
+      "family": "Ribosomal_S3_C",
+      "n_domains": 10,
+      "mean_de": 6.754334410813987,
+      "std_de": 1.5396334343052804,
+      "mean_kr": 18.574786952688804,
+      "de_kr_ratio": 0.36362917259927224
+    },
+    "GTP_EFTU": {
+      "family": "GTP_EFTU",
+      "n_domains": 91,
+      "mean_de": 13.164520606699307,
+      "std_de": 1.8875170921698197,
+      "mean_kr": 10.995482520818705,
+      "de_kr_ratio": 1.1972662938414729
+    },
+    "EFG_C": {
+      "family": "EFG_C",
+      "n_domains": 33,
+      "mean_de": 12.660866328077782,
+      "std_de": 2.3645635613634464,
+      "mean_kr": 8.713913981736386,
+      "de_kr_ratio": 1.4529482795691888
+    },
+    "EFTu": {
+      "family": "EFTu",
+      "n_domains": 91,
+      "mean_de": 13.164520606699307,
+      "std_de": 1.8875170921698197,
+      "mean_kr": 10.995482520818705,
+      "de_kr_ratio": 1.1972662938414729
+    },
+    "GTP_EFTU_D2": {
+      "family": "GTP_EFTU_D2",
+      "n_domains": 70,
+      "mean_de": 11.471332015469349,
+      "std_de": 2.918218187893673,
+      "mean_kr": 12.094339631013165,
+      "de_kr_ratio": 0.948487669889288
+    },
+    "MMR_HSR1": {
+      "family": "MMR_HSR1",
+      "n_domains": 59,
+      "mean_de": 8.989103672956789,
+      "std_de": 3.1594584746148615,
+      "mean_kr": 11.472341083568255,
+      "de_kr_ratio": 0.7835457129000298
+    },
+    "Pkinase": {
+      "family": "Pkinase",
+      "n_domains": 301,
+      "mean_de": 12.57227970533968,
+      "std_de": 1.8554728971524685,
+      "mean_kr": 12.421589722285717,
+      "de_kr_ratio": 1.0121312961080664
+    },
+    "SH2": {
+      "family": "SH2",
+      "n_domains": 34,
+      "mean_de": 12.00669244568722,
+      "std_de": 2.7023300698975516,
+      "mean_kr": 12.258272228532476,
+      "de_kr_ratio": 0.9794767339022152
+    },
+    "SH3_1": {
+      "family": "SH3_1",
+      "n_domains": 70,
+      "mean_de": 17.200828568099876,
+      "std_de": 5.327640451269596,
+      "mean_kr": 11.207915170221353,
+      "de_kr_ratio": 1.5347036720800025
+    },
+    "Homeodomain": {
+      "family": "Homeodomain",
+      "n_domains": 38,
+      "mean_de": 10.204663289539186,
+      "std_de": 4.089613512641071,
+      "mean_kr": 22.23020782502035,
+      "de_kr_ratio": 0.45904488927241255
+    },
+    "HLH": {
+      "family": "HLH",
+      "n_domains": 12,
+      "mean_de": 12.194848146672003,
+      "std_de": 2.288928699233563,
+      "mean_kr": 22.788830148873632,
+      "de_kr_ratio": 0.5351239211054785
+    },
+    "bZIP_1": {
+      "family": "bZIP_1",
+      "n_domains": 10,
+      "mean_de": 14.481971308082922,
+      "std_de": 3.7521807780570544,
+      "mean_kr": 29.357149404336337,
+      "de_kr_ratio": 0.49330304889696797
+    },
+    "Ras": {
+      "family": "Ras",
+      "n_domains": 93,
+      "mean_de": 13.586926090841235,
+      "std_de": 2.514335878437406,
+      "mean_kr": 12.230981361799632,
+      "de_kr_ratio": 1.110861482732412
+    },
+    "zf-C2H2": {
+      "family": "zf-C2H2",
+      "n_domains": 1770,
+      "mean_de": 6.887127118056412,
+      "std_de": 3.999957996127664,
+      "mean_kr": 17.672125708933592,
+      "de_kr_ratio": 0.3897169605677284
+    },
+    "LRR_1": {
+      "family": "LRR_1",
+      "n_domains": 67,
+      "mean_de": 8.765103610598677,
+      "std_de": 5.2567094559491405,
+      "mean_kr": 6.732009437788323,
+      "de_kr_ratio": 1.3020040586096222
+    },
+    "Trypsin": {
+      "family": "Trypsin",
+      "n_domains": 6,
+      "mean_de": 9.362322127941544,
+      "std_de": 1.9892099824252343,
+      "mean_kr": 10.162254743044974,
+      "de_kr_ratio": 0.9212839438362926
+    },
+    "I-set": {
+      "family": "I-set",
+      "n_domains": 528,
+      "mean_de": 13.012284912547363,
+      "std_de": 3.49144304209886,
+      "mean_kr": 12.041896919998932,
+      "de_kr_ratio": 1.0805843131688688
+    },
+    "fn3": {
+      "family": "fn3",
+      "n_domains": 434,
+      "mean_de": 12.641669549070063,
+      "std_de": 2.9792957399172084,
+      "mean_kr": 11.559599675017262,
+      "de_kr_ratio": 1.093607902044513
+    },
+    "Peptidase_C1": {
+      "family": "Peptidase_C1",
+      "n_domains": 13,
+      "mean_de": 12.097916103497607,
+      "std_de": 2.349660194703807,
+      "mean_kr": 8.48792396847895,
+      "de_kr_ratio": 1.4253091979175176
+    },
+    "Y_phosphatase": {
+      "family": "Y_phosphatase",
+      "n_domains": 18,
+      "mean_de": 11.692443424124807,
+      "std_de": 1.8687653699281817,
+      "mean_kr": 11.586666822189905,
+      "de_kr_ratio": 1.0091291657521668
+    },
+    "adh_short": {
+      "family": "adh_short",
+      "n_domains": 28,
+      "mean_de": 9.78604491475595,
+      "std_de": 1.6661243992594272,
+      "mean_kr": 10.857524865068914,
+      "de_kr_ratio": 0.9013145294504317
+    },
+    "Thioredoxin": {
+      "family": "Thioredoxin",
+      "n_domains": 72,
+      "mean_de": 13.885908922789278,
+      "std_de": 2.1702970865349793,
+      "mean_kr": 11.876618081514286,
+      "de_kr_ratio": 1.16918038683103
+    },
+    "Aldedh": {
+      "family": "Aldedh",
+      "n_domains": 39,
+      "mean_de": 11.662910386049237,
+      "std_de": 1.4837850718623045,
+      "mean_kr": 10.495115166779854,
+      "de_kr_ratio": 1.1112703577532719
+    },
+    "Cyclin_N": {
+      "family": "Cyclin_N",
+      "n_domains": 16,
+      "mean_de": 11.351789338927498,
+      "std_de": 2.3329800895466892,
+      "mean_kr": 12.066454109969635,
+      "de_kr_ratio": 0.9407725944565883
+    },
+    "Ank": {
+      "family": "Ank",
+      "n_domains": 60,
+      "mean_de": 10.721599401727786,
+      "std_de": 4.585213851376081,
+      "mean_kr": 7.3275345098227005,
+      "de_kr_ratio": 1.4631933001960313
+    }
+  },
+  "origin_groups": {
+    "eukaryotic": [
+      "RRM_1",
+      "DEAD",
+      "Helicase_C",
+      "dsRBD",
+      "zf-CCHC",
+      "zf-CCCH",
+      "PUF",
+      "PAZ",
+      "zf-C2H2"
+    ],
+    "LUCA": [
+      "KH_1",
+      "WD40",
+      "LSM",
+      "S1",
+      "GTP_EFTU",
+      "Pkinase"
+    ]
+  },
+  "origin_de_means": {
+    "LUCA": {
+      "mean": 12.102716359470266,
+      "std": 0.8534698593784164,
+      "n": 6
+    },
+    "eukaryotic": {
+      "mean": 10.491214412854468,
+      "std": 1.8725628560596765,
+      "n": 9
+    }
+  },
+  "unclassified_families": [
+    "RRM_2",
+    "RRM_3",
+    "RRM_5",
+    "KH_2",
+    "PABP",
+    "Piwi",
+    "TUDOR",
+    "WW",
+    "SAM_1",
+    "SAM_2",
+    "RhoGAP",
+    "zf-AN1",
+    "SAP",
+    "HABP4_PAI-RBP1",
+    "HSP70",
+    "Proteasome",
+    "Kunitz",
+    "IF4E",
+    "S4",
+    "KOW",
+    "Ribosomal_S15",
+    "Ribosomal_S2",
+    "Ribosomal_L16",
+    "Ribosomal_L17",
+    "Ribosomal_L22",
+    "Ribosomal_L14",
+    "Ribosomal_L5",
+    "Ribosomal_L6",
+    "Ribosomal_L11_N",
+    "Ribosomal_L11",
+    "Ribosomal_L19",
+    "Ribosomal_L18p",
+    "Ribosomal_S6",
+    "Ribosomal_S12",
+    "Ribosomal_S3_C",
+    "EFG_C",
+    "EFTu",
+    "GTP_EFTU_D2",
+    "MMR_HSR1",
+    "SH2",
+    "SH3_1",
+    "Homeodomain",
+    "HLH",
+    "bZIP_1",
+    "Ras",
+    "LRR_1",
+    "Trypsin",
+    "I-set",
+    "fn3",
+    "Peptidase_C1",
+    "Y_phosphatase",
+    "adh_short",
+    "Thioredoxin",
+    "Aldedh",
+    "Cyclin_N",
+    "Ank"
+  ]
+}

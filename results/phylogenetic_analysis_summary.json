@@ -1,0 +1,86 @@
+{
+  "DEAD": {
+    "variation": {
+      "n_seqs": 20,
+      "mean_de": 11.101143425644192,
+      "std_de": 2.4034161433735157,
+      "min_de": 4.733727810650888,
+      "max_de": 17.032967032967033,
+      "range_de": 12.299239222316146,
+      "cv_de": 0.21650167475735024
+    },
+    "alignment": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/DEAD.aln",
+    "tree": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/DEAD.treefile",
+    "traits": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/DEAD_de_traits.tsv"
+  },
+  "KH_1": {
+    "variation": {
+      "n_seqs": 20,
+      "mean_de": 11.219099643633509,
+      "std_de": 3.869666262553746,
+      "min_de": 3.8461538461538463,
+      "max_de": 20.33898305084746,
+      "range_de": 16.492829204693614,
+      "cv_de": 0.3449177193777454
+    },
+    "alignment": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/KH_1.aln",
+    "tree": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/KH_1.treefile",
+    "traits": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/KH_1_de_traits.tsv"
+  },
+  "LSM": {
+    "variation": {
+      "n_seqs": 20,
+      "mean_de": 12.16799284909053,
+      "std_de": 3.5043172838526937,
+      "min_de": 4.3478260869565215,
+      "max_de": 20.77922077922078,
+      "range_de": 16.431394692264256,
+      "cv_de": 0.2879946863310835
+    },
+    "alignment": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/LSM.aln",
+    "tree": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/LSM.treefile",
+    "traits": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/LSM_de_traits.tsv"
+  },
+  "RRM_1": {
+    "variation": {
+      "n_seqs": 20,
+      "mean_de": 13.740760056975441,
+      "std_de": 5.028934133758752,
+      "min_de": 1.7543859649122806,
+      "max_de": 25.862068965517242,
+      "range_de": 24.10768300060496,
+      "cv_de": 0.3659866057559046
+    },
+    "alignment": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/RRM_1.aln",
+    "tree": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/RRM_1.treefile",
+    "traits": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/RRM_1_de_traits.tsv"
+  },
+  "S1": {
+    "variation": {
+      "n_seqs": 20,
+      "mean_de": 12.676631924396919,
+      "std_de": 3.573719614398788,
+      "min_de": 6.8493150684931505,
+      "max_de": 21.666666666666668,
+      "range_de": 14.817351598173516,
+      "cv_de": 0.28191396860872453
+    },
+    "alignment": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/S1.aln",
+    "tree": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/S1.treefile",
+    "traits": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/S1_de_traits.tsv"
+  },
+  "dsRBD": {
+    "variation": {
+      "n_seqs": 20,
+      "mean_de": 9.56506468803873,
+      "std_de": 3.228188861354196,
+      "min_de": 3.4482758620689653,
+      "max_de": 18.84057971014493,
+      "range_de": 15.392303848075965,
+      "cv_de": 0.33749785983058733
+    },
+    "alignment": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/dsRBD.aln",
+    "tree": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/dsRBD.treefile",
+    "traits": "/storage/kiran-stuff/protein-semantic-collapse/results/phylogenetics/dsRBD_de_traits.tsv"
+  }
+}

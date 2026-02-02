@@ -1,0 +1,132 @@
+================================================================================
+PTM ENRICHMENT ANALYSIS IN D/E REGIONS OF RNA-BINDING DOMAINS
+================================================================================
+
+OVERVIEW
+----------------------------------------
+Proteins analyzed: 2547
+Domains analyzed: 6672
+Proteins with PTMs in domains: 373
+
+POSITION STATISTICS (within domains)
+----------------------------------------
+Total positions: 410,111
+D/E positions: 47,493 (11.6%)
+Non-D/E positions: 362,618 (88.4%)
+D/E-rich segments (>=3 consec): 1,380 positions
+
+================================================================================
+KEY HYPOTHESIS TEST: PTMs NEAR D/E RESIDUES
+================================================================================
+
+Rationale: D/E (acidic residues) cannot be phosphorylated/acetylated/etc.
+However, they may act as RECOGNITION MOTIFS for kinases (CK2, Polo-like)
+that prefer acidic residues flanking their substrate sites.
+
+1. PHOSPHORYLATION: S/T/Y NEAR D/E (<=3 residues) vs FAR FROM D/E
+----------------------------------------------------------------------
+S/T/Y positions near D/E: 32,102
+S/T/Y positions far from D/E: 30,739
+
+Phosphorylation near D/E: 232 (7.23 per 1000 S/T/Y)
+Phosphorylation far from D/E: 180 (5.86 per 1000 S/T/Y)
+
+ENRICHMENT: 1.23x
+Fisher's exact test p-value: 3.36e-02
+
+*** SIGNIFICANT (p < 0.05): S/T/Y near D/E are more likely to be phosphorylated ***
+
+2. ACETYLATION: LYSINE (K) NEAR D/E vs FAR FROM D/E
+----------------------------------------------------------------------
+K positions near D/E: 12,903
+K positions far from D/E: 11,727
+
+Acetylation near D/E: 96 (7.44 per 1000 K)
+Acetylation far from D/E: 70 (5.97 per 1000 K)
+
+ENRICHMENT: 1.25x
+Fisher's exact test p-value: 1.61e-01
+
+3. METHYLATION: ARGININE (R) NEAR D/E vs FAR FROM D/E
+----------------------------------------------------------------------
+R positions near D/E: 12,276
+R positions far from D/E: 11,371
+
+Methylation near D/E: 21 (1.71 per 1000 R)
+Methylation far from D/E: 23 (2.02 per 1000 R)
+
+ENRICHMENT: 0.85x
+Fisher's exact test p-value: 6.51e-01
+
+================================================================================
+PTM DISTRIBUTION BY DISTANCE TO NEAREST D/E
+================================================================================
+
+Distance    PTM Count
+------------------------------
+   1          222 (22.7%) ######################
+   2          229 (23.5%) #######################
+   3           99 (10.1%) ##########
+   4          140 (14.3%) ##############
+   5           57 ( 5.8%) #####
+   6           60 ( 6.1%) ######
+   7           59 ( 6.0%) ######
+   8           24 ( 2.5%) ##
+   9           14 ( 1.4%) #
+  10           72 ( 7.4%) #######
+
+================================================================================
+EXAMPLE PHOSPHORYLATION SITES NEAR D/E
+================================================================================
+
+Protein: O00425, Position: 528, AA: T
+  Description: Phosphothreonine
+  Distance to D/E: 2
+  Context: ...VPRDQTPDEND... (D/E in context highlighted)
+
+Protein: O14979, Position: 241, AA: S
+  Description: Phosphoserine
+  Distance to D/E: 2
+  Context: ...FVGGLSPDTSE... (D/E in context highlighted)
+
+Protein: O22703, Position: 20, AA: S
+  Description: Phosphoserine
+  Distance to D/E: 2
+  Context: ...FVGGLSWDVTE... (D/E in context highlighted)
+
+Protein: O60506, Position: 373, AA: Y
+  Description: Phosphotyrosine
+  Distance to D/E: 1
+  Context: ...KKLKDYAFIHF... (D/E in context highlighted)
+
+Protein: O75494, Position: 23, AA: S
+  Description: Phosphoserine
+  Distance to D/E: 1
+  Context: ...ADDTRSEDLRR... (D/E in context highlighted)
+
+================================================================================
+CONCLUSIONS
+================================================================================
+
+1. PHOSPHORYLATION NEAR D/E:
+   SUPPORTED - S/T/Y residues within 3 positions of D/E show 1.23x
+   higher phosphorylation rate (p = 3.36e-02)
+   This supports D/E regions as kinase recognition motifs.
+
+2. BIOLOGICAL INTERPRETATION:
+   - D/E residues themselves cannot be modified by common PTMs
+   - However, D/E-rich regions serve as REGULATORY HOTSPOTS by:
+     a) Providing acidic flanking sequences for kinase recognition
+     b) Creating negative charge patches for protein interactions
+     c) Potentially mimicking phosphorylation (phospho-mimicry)
+
+3. IMPLICATIONS FOR RNA-BINDING PROTEINS:
+   - D/E regions in RBDs may modulate RNA binding affinity
+   - Phosphorylation near D/E could switch RBP activity
+   - Charge-based regulation in disordered regions
+
+DATA SOURCE
+----------------------------------------
+PTM annotations: UniProt REST API
+Domain data: protein-semantic-collapse/data/domain_sequences.jsonl
+Analysis date: 2026-02-01 13:40:48
